@@ -6,6 +6,9 @@ use App\Repository\TeachrRepository;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
+ * @ORM\Entity()
+ * @ORM\Table(name="Teachr")
+ * @ORM\HasLifecycleCallbacks()
  * @ORM\Entity(repositoryClass=TeachrRepository::class)
  */
 class Teachr
@@ -105,5 +108,13 @@ class Teachr
         $this->image = $image;
 
         return $this;
+    }
+
+    /**
+     * @ORM\PrePersist()
+     */
+    public function prePersist()
+    {
+        $this->date_creation = new \DateTime();
     }
 }
