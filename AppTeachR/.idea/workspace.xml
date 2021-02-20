@@ -111,6 +111,9 @@
       <path value="$PROJECT_DIR$/vendor/symfony/inflector" />
       <path value="$PROJECT_DIR$/vendor/symfony/monolog-bridge" />
       <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-fixtures-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/data-fixtures" />
+      <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
     </include_path>
   </component>
   <component name="ProjectId" id="1ojgLl088rw6escGlMrxQyKHgjH" />
@@ -123,6 +126,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -132,8 +137,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1613805359431</updated>
-      <workItem from="1613805360498" duration="928000" />
+      <workItem from="1613805360498" duration="5354000" />
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="525" y="113" key="#com.intellij.ide.util.MemberChooser" timestamp="1613807258337">
+      <screen x="0" y="25" width="1440" height="809" />
+    </state>
+    <state x="525" y="113" key="#com.intellij.ide.util.MemberChooser/0.25.1440.809@0.25.1440.809" timestamp="1613807258337" />
+    <state x="479" y="290" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1613806505545">
+      <screen x="0" y="25" width="1440" height="809" />
+    </state>
+    <state x="479" y="290" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.25.1440.809@0.25.1440.809" timestamp="1613806505545" />
+    <state x="219" y="157" key="NewPhpClassDialog" timestamp="1613807661665">
+      <screen x="0" y="25" width="1440" height="809" />
+    </state>
+    <state x="219" y="157" key="NewPhpClassDialog/0.25.1440.809@0.25.1440.809" timestamp="1613807661665" />
   </component>
 </project>
